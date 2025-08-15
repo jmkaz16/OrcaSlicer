@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "; Start macro: Heat bed and nozzle simultaneously\nM104 S150                                           ; Preheat nozzle to 150°C (non-blocking)\nM140 S[bed_temperature_initial_layer_single]        ; Set bed target temperature (non-blocking)\nM190 S[bed_temperature_initial_layer_single]        ; Wait for bed to reach target temperature\nM109 S150                                           ; Wait for nozzle to reach 150°C\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n",
+    "name": "Voron 2.4 300 0.4 nozzle - Mainsail",
+    "print_host": "192.168.1.53",
+    "printer_settings_id": "Voron 2.4 300 0.4 nozzle - Mainsail",
+    "version": "2.3.0.3"
+}
