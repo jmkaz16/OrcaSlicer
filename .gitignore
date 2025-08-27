@@ -1,1 +1,9 @@
+# Ignorar todo por defecto
+/*
+
+# No ignorar estas carpetas
+!/system/
+!/user/
+
+# Ignorar todos los archivos .info en cualquier ubicación
 *.info
