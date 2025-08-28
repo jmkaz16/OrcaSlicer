@@ -1,5 +1,6 @@
 {
   "close_fan_the_first_x_layers": ["5"],
+  "compatible_printers_condition": "printer_settings_id!=\"Creality Ender-3 V2 0.4 nozzle - Octoprint\"",
   "dont_slow_down_outer_wall": ["1"],
   "enable_overhang_bridge_fan": ["0"],
   "fan_max_speed": ["15"],
@@ -8,9 +9,8 @@
   "filament_density": ["1.07"],
   "filament_flow_ratio": ["0.99"],
   "filament_notes": [
-    "18/04/2025\n- Torre de temperatura: 245 ºC\n- Largo retracciones con 3.6 mm perfecto\n\n19/04/2025\n- Al tener Overhang cooling activation threshold a 0%, forzaba siempre a tener la ventilación al 80% que causaba warping\n- Temperatura de la cama a 100 ºC\n\n23/04/2025\n- Temperatura de la cama a 90 ºC para evitar sobrecalientamiento del enclosure\n"
+    "18/04/2025\n- Torre de temperatura: 245 ºC\n\n19/04/2025\n- Al tener Overhang cooling activation threshold a 0%, forzaba siempre a tener la ventilación al 80% que causaba warping\n- Temperatura de la cama a 100 ºC\n\n23/04/2025\n- Temperatura de la cama a 90 ºC para evitar sobrecalientamiento del enclosure\n\n28/08/2025\n- Crear perfil específico para la Ender-3 V2, moviendo configuración de \"Largo\"\n"
   ],
-  "filament_retraction_length": ["3.6"],
   "filament_settings_id": ["Winkle ASA Generic"],
   "filament_vendor": ["Winkle"],
   "from": "User",

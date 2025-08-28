@@ -1,0 +1,12 @@
+{
+  "compatible_printers": ["Creality Ender-3 V2 0.4 nozzle"],
+  "filament_notes": ["18/04/2025\n- Largo 3.6 mm"],
+  "filament_retraction_length": ["3.6"],
+  "filament_settings_id": [
+    "Winkle ASA Generic @Creality Ender-3 V2 0.4 nozzle"
+  ],
+  "from": "User",
+  "inherits": "Winkle ASA Generic",
+  "name": "Winkle ASA Generic @Creality Ender-3 V2 0.4 nozzle",
+  "version": "2.3.0.3"
+}

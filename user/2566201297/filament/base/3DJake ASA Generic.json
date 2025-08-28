@@ -1,5 +1,6 @@
 {
   "close_fan_the_first_x_layers": ["5"],
+  "compatible_printers_condition": "printer_settings_id!=\"Creality Ender-3 V2 0.4 nozzle - Octoprint\"",
   "dont_slow_down_outer_wall": ["1"],
   "enable_overhang_bridge_fan": ["0"],
   "fan_max_speed": ["15"],
@@ -8,9 +9,8 @@
   "filament_density": ["1.1"],
   "filament_flow_ratio": ["0.99"],
   "filament_notes": [
-    "10/05/2025\n- Torre de temperatura: 235 ºC\n- Test de flujo YOLO: +0.2 pero con otros test -0.1\n- Largo retracciones con 3.2 mm\n"
+    "10/05/2025\n- Torre de temperatura: 235 ºC\n- Test de flujo YOLO: +0.2 pero con otros test -0.1\n\n28/08/2025\n- Crear perfil específico para la Ender-3 V2, moviendo configuración de \"Largo\"\n"
   ],
-  "filament_retraction_length": ["3.2"],
   "filament_settings_id": ["3DJake ASA Generic"],
   "filament_vendor": ["3DJake"],
   "from": "User",
