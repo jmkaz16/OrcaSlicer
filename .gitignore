@@ -2,8 +2,40 @@
 /*
 
 # No ignorar estas carpetas
-!/system/
 !/user/
 
 # Ignorar todos los archivos .info en cualquier ubicación
 *.info
+
+# No ignorar las dependencias de la carpeta /system
+# filament
+!/system/OrcaFilamentLibrary/filament/Generic PLA @System.json
+!/system/OrcaFilamentLibrary/filament/base/fdm_filament_pla.json
+!/system/OrcaFilamentLibrary/filament/base/fdm_filament_common.json
+
+!/system/OrcaFilamentLibrary/filament/Generic ASA @System.json
+!/system/OrcaFilamentLibrary/filament/base/fdm_filament_asa.json
+
+# machine
+!/system/Creality/machine/Creality Ender-3 V2 0.4 nozzle.json
+!/system/Creality/machine/fdm_creality_common.json
+!/system/Creality/machine/fdm_machine_common.json
+
+!/system/Voron/machine/Voron 2.4 300 0.4 nozzle.json
+!/system/Voron/machine/fdm_klipper_common.json
+!/system/Voron/machine/fdm_machine_common.json
+
+# machine_model
+!/system/Creality/machine/Creality Ender-3 V2.json
+!/system/Voron/machine/Voron 2.4 300
+
+# process
+!/system/Creality/process/0.20mm Standard @Creality Ender3V2.json
+!/system/Creality/process/fdm_process_creality_common.json
+!/system/Creality/process/fdm_process_common.json
+
+!/system/Voron/process/0.20mm Standard @Voron
+!/system/Voron/process/fdm_process_voron_common.json
+!/system/Voron/process/fdm_process_common.json
+
+
